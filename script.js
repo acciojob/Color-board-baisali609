@@ -1,9 +1,7 @@
 //your JS code here. If required.
-const container = document.querySelector('.container');
-
-// Create 800 boxes dynamically
+const containers = document.querySelector('.container');
 for (let i = 0; i < 800; i++) {
   const square = document.createElement('div');
   square.classList.add('square');
-  container.appendChild(square);
+  containers.appendChild(square);
 }
